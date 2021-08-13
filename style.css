@@ -1,0 +1,160 @@
+@import url('https://fonts.googleapis.com/css2?family=Roboto:ital,wght@0,300;0,400;0,500;0,700;1,300;1,400;1,500&display=swap');
+@import url('https://fonts.googleapis.com/css2?family=Poppins:ital,wght@0,400;0,500;0,700;1,500;1,600&display=swap');
+*{
+    padding: 0;
+    margin: 0;
+    box-sizing: border-box;
+}
+
+body{
+    width: 100vw;
+    min-height: 100vh;
+    background: rgb(11, 22, 34);
+    font-family: 'Poppins', sans-serif;
+    overflow-x: hidden;
+ 
+}
+
+header{
+    background-color: rgb(21, 34, 50);
+    height: 60px;
+    display: flex;
+    justify-content: space-around;
+    align-items: center;
+    padding: 35px; 
+    margin-bottom: 10px;
+
+}
+ul{
+    display: flex;
+}
+ul li {
+    list-style: none;
+    margin-right: 30px;
+}
+
+ul li a{
+    text-decoration: none;
+    color: rgba(255, 255, 254, 0.637);
+    font-weight: 500;
+    font-size: 13px;
+    transition-property: color;
+    transition-duration: .2s;
+}
+ul li a:hover{
+    color: rgb(214, 214, 214);
+}
+.logo img{
+    width: 50px;
+}
+.profile{
+    width: 70px;
+    height: 40px;
+    display: flex;
+    align-items: center;
+}
+.profile i{
+    color: rgba(255, 255, 254, 0.637);
+    cursor: pointer;
+  
+}
+.profile i:hover{
+    color: rgb(214,214,214);
+}
+.profile img{
+    width: 40px;
+    margin-left: 20px;
+    margin-right: 10px;
+}
+
+.search-bar{
+    width: 50vw;
+    margin: auto;
+    visibility: hidden;
+}
+.input-field{
+    background: rgb(235, 235, 235);
+    padding: 10px;
+    border-radius: 4px;
+}
+
+.input-field input{
+    width: 93%;
+    height: 90%;
+    outline: none;
+    background: transparent;
+    border: none;
+}
+
+.input-field label{
+    cursor: pointer;
+}
+
+.main-home{
+    width: 100%;
+    display: flex;
+    justify-content: center;
+   
+}
+.main-home .posts-left{
+    width: 40vw;
+    margin-right: 30px;
+}
+
+.main-home .posts-left .post-text{
+    width: 100%;
+    
+ 
+   
+}
+
+.main-home .posts-left .post-text .title{
+    color:rgba(214, 214, 214, 0.658); 
+    margin-bottom: 10px;
+    font-weight: 200;
+}
+.main-home .posts-left .post-text .post-text-area{
+    background-color: rgb(21, 31, 46);
+    padding: 10px;
+    width: 100%;
+    border-radius: 4px;
+    
+}
+
+.main-home .posts-left .post-text .post-text-area textarea{
+    height: 20px;
+    width: 100%;
+    color: rgb(214,214,214);
+    font-family: 'Poppins';
+    font-size: 12px;
+    background-color: transparent;
+    border: none;
+    outline: none;
+    resize: none;
+}
+
+.card-post{
+    margin-top: 10px;
+    width: 100%;
+    border-radius: 4px;
+    background-color: rgb(21, 31, 46);
+    height: 100%;
+    
+}
+.main-home .anime-right .title-anime{
+    color: rgba(214, 214, 214, 0.658);  
+}
+.main-home .anime-right .anime-area{
+    width: 30vw;
+    padding: 20px;
+    border-radius: 4px;
+    background-color: rgb(21, 31, 46);
+    margin-top: 10px;
+    display: flex;
+    justify-content: space-between;
+
+}
+.main-home .anime-right .anime-area .anime-img img{
+    width: 80px;
+    border-radius: 4px;
+}
